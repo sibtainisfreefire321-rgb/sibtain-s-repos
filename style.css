@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(253, 222, 176);
+}
+
+.container{
+    background-color: #97B1A6;
+    color: black;
+    height: 65vh;
+    width: 60vh;
+    border-radius: 1.30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+    align-items: center; 
+}
+
+h1{
+    margin-top: -70px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 1.20rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button,#msg,p,#birthday{
+    margin-top: -20px;
+}
+
+button{
+    height: 3rem;
+    width: 15rem;
+    background-color: rgb(71, 198, 160);
+    border-radius: 1rem;
+}
+
+button:hover{
+    filter: brightness(1.2);
+}
+
+#btn{
+    width: 11rem;
+}
+
+#birthday{
+    height: 3rem;
+    width: 15rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
